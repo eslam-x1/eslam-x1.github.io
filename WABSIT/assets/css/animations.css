@@ -1,0 +1,47 @@
+/* animations.css */
+
+/* تأثير الانتقال السلس للمحتوى */
+.fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* تأثير التحريك عند التمرير */
+.slide-up {
+    animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* تأثير التكبير للصور */
+.zoom-in {
+    animation: zoomIn 1s ease-out forwards;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

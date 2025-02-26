@@ -1,0 +1,28 @@
+/* responsive.css */
+
+/* التصميم على الشاشات الصغيرة (هواتف) */
+@media only screen and (max-width: 600px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .consultation form {
+        padding: 20px;
+    }
+}
+
+/* التصميم على الأجهزة اللوحية */
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .consultation form {
+        width: 80%;
+    }
+}

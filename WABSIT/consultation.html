@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule a Consultation - White Sand Construction</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- 🔹 شريط التنقل -->
+    <header>
+        <div class="logo">White Sand</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 🔹 حجز الاستشارة -->
+    <section class="consultation">
+        <h1>Schedule a Consultation</h1>
+        <p>We'd love to discuss your project. Please fill out the form below to schedule a consultation with our team.</p>
+        <form action="submit-consultation.php" method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Your Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Preferred Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Book Consultation</button>
+        </form>
+    </section>
+
+    <!-- 🔹 تذييل الصفحة -->
+    <footer>
+        <p>&copy; 2025 White Sand Construction. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

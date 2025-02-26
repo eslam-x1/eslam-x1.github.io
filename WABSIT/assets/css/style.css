@@ -1,0 +1,100 @@
+/* 🔹 إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* 🔹 شريط التنقل */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* 🔹 قسم الترحيب */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.safety {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* 🔹 الأقسام */
+.about, .services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 الأزرار */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* 🔹 تذييل الصفحة */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
